@@ -20,6 +20,17 @@ body {
 	width: 242px;
 	height: 40px;
 }
+.login-form {
+
+    display: none;
+
+}
+.signup-form {
+
+    display: none;
+
+}
+
 
 .form-modal {
 	border: 10px solid #76daff;
