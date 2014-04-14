@@ -45,6 +45,15 @@ console.log (user.username)
         password:null
       };
 
+    var codepenobjectsUser = Object.create(user)
+    user.username = $("#login-username-field").val();
+    user.password = $("#login-password-field").val();
+
+        var response = codepen.api.login(codepenobjectsUser);
+
+
+
+
     $(".login-form-btn").click(function() {
         $(".login-form").show();
         $(".signup-form").hide();
